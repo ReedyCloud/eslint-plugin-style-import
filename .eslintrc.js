@@ -7,9 +7,9 @@ module.exports = {
     "plugin:eslint-plugin/recommended",
     "plugin:node/recommended",
   ],
-  plugins: ["style-import"],
+  plugins: ["@rdy"],
   rules: [
-    { "style-import/vanilla-extract-styles": "error" }
+    { "eslint-plugin-style-import/vanilla-extract-styles": "error" }
   ],
 
   env: {

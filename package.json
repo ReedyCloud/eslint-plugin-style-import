@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-style-import",
+  "name": "@rdy/eslint-plugin-style-import",
   "version": "0.0.0",
   "description": " ",
   "keywords": [
@@ -35,5 +35,12 @@
   "peerDependencies": {
     "eslint": ">=7"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/ReedyCloud/eslint-plugin-style-import"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ReedyCloud"
+  }
 }
